@@ -653,7 +653,7 @@ export default function Home() {
     "지금 집 앞이다... 문 좀 열어봐라 햄아 제발ㅠㅠ"
   ];
 
-  const CORRECT_PASSCODE = '123456';
+  const CORRECT_PASSCODE = '950825';
 
   const KEYPAD_DATA = [
     { num: '1', sub: '' },
@@ -950,7 +950,6 @@ export default function Home() {
                 {passcode.length > 0 ? '지우기' : '취소'}
               </button>
             </div>
-            <p className="text-[10px] text-white/40 text-center -mt-2">암호: 123456</p>
           </div>
         )}
 
